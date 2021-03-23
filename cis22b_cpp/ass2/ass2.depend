@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1516689642 source:c:\users\trang\desktop\cis 22b code\ass2\ass2.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+

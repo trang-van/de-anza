@@ -1,0 +1,52 @@
+*
+ template <class listdata>
+void List<listdata>::swapData(int * a, int * b)
+{
+	int temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+template <class listdata>
+void List<listdata>::swap(int pos1, int pos2, const List& obj)
+{
+	List<char>w_copy(obj);
+	Node* temp;
+
+	w_copy.startIterator();
+
+	for(int i = 0; i < pos1; i++)
+	{
+		iterator = w_copy.moveIteratorNext();
+	}
+
+	w_copy.startIterator();
+	for(int j = 0; j < pos2; j++)
+	{
+		temp = w_copy.moveIteratorNext();
+	}
+
+	//Swap data
+	swapData(&iterator->data, &temp->data);
+
+	//Swap Pointers
+	iterator->next = temp->next;
+	iterator->previous = temp-> previous;
+	temp->next = iterator->next;
+	temp->previous = iterator->previous;
+}
+*/
+
+template<class listdata>
+void List<listdata>::displayReverse(ostream& out) const
+{
+	out << "Reverse:";
+	Node* temp = stop;
+	while (temp != NULL)
+	{
+		cout << temp->data <<' ';
+		temp=temp->previous;
+	}
+	out << endl;
+}

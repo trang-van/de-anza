@@ -1,0 +1,250 @@
+Trang Van
+CIS 35A - 61Z
+Lab 2 Pt 2
+Date Due: 7/13/2018
+Date Submitted: 7/13/2018
+
+Lab 2 Pt 2 - Test Runs
+Details: Creates coin objects and generates a toss: heads or tails
+ 	 Program counts the number of times heads or tails have been tossed.
+
+---------------Test 1-----------------
++++ Quarter Toss: +++
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+
+
+Heads: 13
+Tails: 7
+
++++ Dime Toss: +++
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+
+
+Heads: 10
+Tails: 10
+
++++ Nickel Toss: +++
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+
+
+Heads: 11
+Tails: 9
+--------------------------------------
+
+---------------Test 2-----------------
++++ Quarter Toss: +++
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+
+
+Heads: 11
+Tails: 9
+
++++ Dime Toss: +++
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+
+
+Heads: 8
+Tails: 12
+
++++ Nickel Toss: +++
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+
+
+Heads: 10
+Tails: 10
+--------------------------------------
+
+---------------Test 3-----------------
++++ Quarter Toss: +++
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: tails
+
+
+Heads: 5
+Tails: 15
+
++++ Dime Toss: +++
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+
+
+Heads: 14
+Tails: 6
+
++++ Nickel Toss: +++
+SIDE: tails
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+SIDE: heads
+SIDE: tails
+SIDE: heads
+
+
+Heads: 13
+Tails: 7
+------------------------------------
+

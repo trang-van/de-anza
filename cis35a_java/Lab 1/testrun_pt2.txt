@@ -1,0 +1,73 @@
+Trang Van
+CIS 35A-61Z
+Assignment 1
+Date Due: 7/8/2018
+Date Submitted: 7/7/2018
+
+Lab 1 Part 2 - Test Runs 
+Details: Using Babylonian Method to approximate square
+	 root with precision of 4.
+
+---------------Test 1----------------
+Details: Used a simple,known square 
+	 root, like 25. Expecting 5.
+-------------------------------------
+
+=== Approximate the Square Root === 
+Enter a number: 25
+
+The approximate square root of 25 is 5.0000.
+
+-------------------------------------
+
+---------------Test 2---------------
+Details: Input of 0 should still print
+	 0. 
+-------------------------------------
+
+=== Approximate the Square Root === 
+Enter a number: 0
+
+The approximate square root of 0 is 0.0000.
+
+-------------------------------------
+
+---------------Test 3----------------
+Details: Another common square root whose
+	 output can be checked with calculator.
+	 Expecting 1.4142.
+-------------------------------------
+=== Approximate the Square Root === 
+Enter a number: 2
+
+The approximate square root of 2 is 1.4142.
+
+-------------------------------------
+
+---------------Test 4----------------
+Details: Testing a random large number to test
+	 precision of 4.
+-------------------------------------
+=== Approximate the Square Root === 
+Enter a number: 12345
+
+The approximate square root of 12345 is 111.1081.
+
+-------------------------------------
+
+---------------Test 5----------------
+Details: Program should not process negative numbers.
+	If user inputs a negative number, the program
+	will prompt user to input again.
+-------------------------------------
+=== Approximate the Square Root === 
+Enter a number: -23
+
+Can't have root of a negative number. Try again.
+
+Enter a number: 13
+
+The approximate square root of 13 is 3.6056.
+
+-------------------------------------
+

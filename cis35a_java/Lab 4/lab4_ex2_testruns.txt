@@ -1,0 +1,58 @@
+ * Trang Van
+ * CIS 35A-61Z
+ * Lab 4- Exercise 2
+ * Date Due: 07/23/2018
+ * Date Submitted: 07/23/2018
+
+Test Run for Ship Class, CargoShip, and CruiseShip
+
+===SHIP INFO===
+Name: Queen Mary
+Destination: Long Beach
+Size: 1019.00
+Weight: 18960.00
+Num of Crew Members: 25
+
+===CARGO SHIP INFO===
+Name: NC-2559
+Fleet: MSC
+Destination: New York
+Size: 1540.00
+Weight: 20384.00
+Num of Crew Members: 30
+
+Cargo Type: Steel & Other Metals
+Num of Containers: 250
+Shipping Cost: 3500.00
+
+===CRUISE SHIP INFO===
+Name: SS Tipton
+Company: Blue Inc.
+Destination: Norway
+Size: 900.00
+Weight: 15000.00
+Num of Crew Members: 65
+
+Num of Passengers: 300
+Num of Rooms: 57
+Num of Restaurants: 5
+
+===SHIP INFO===
+Name: StarLord
+Destination: Italy
+Size: 800.00
+Weight: 10989.00
+Num of Crew Members: 15
+
+===CRUISE SHIP INFO===
+Name: Bangtan
+Company: Crown Cruises
+Destination: Mexico
+Size: 987.00
+Weight: 12241.00
+Num of Crew Members: 47
+
+Num of Passengers: 223
+Num of Rooms: 20
+Num of Restaurants: 3
+

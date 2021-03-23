@@ -1,0 +1,16 @@
+Trang Van
+CIS 35A-61Z
+Assignment 1
+Date Due: 7/8/2018
+Date Submitted: 7/7/2018
+
+Lab 1 Part 1- Design Diagram/Structure Chart
+
+				main()
+				  |
+		-----------------------------------------
+		|					|
+		|					|
+calcTotalPayment(double mp, int y)	displayTable(int years, double loanAmt, double monthlyRate, 
+							double monthlyPayment)
+							

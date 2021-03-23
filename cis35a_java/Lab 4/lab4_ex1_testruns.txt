@@ -1,0 +1,71 @@
+ * Trang Van
+ * CIS 35A-61Z
+ * Lab 4- Exercise 1 Pt. 1
+ * Date Due: 07/23/2018
+ * Date Submitted: 07/23/2018
+
+=>Test Runs in Driver 1 (SavingsAccount):
+
+SAVER 1
+Annual Interest Rate: 4.00
+New Balance: 2006.67
+
+Withdrew: $5000
+Annual Interest Rate: 4.00
+New Balance: 7030.02
+
+SAVER 2
+Annual Interest Rate: 4.00
+New Balance: 3010.00
+
+Withdrew: $500
+Annual Interest Rate: 4.00
+New Balance: 2518.37
+
+----
+SAVER 1
+Annual Interest Rate: 5.00
+New Balance: 7059.31
+
+Withdrew: $1300
+Annual Interest Rate: 5.00
+New Balance: 1223.44
+
+SAVER 2
+Annual Interest Rate: 5.00
+New Balance: 1228.54
+
+Deposit: $15000
+Annual Interest Rate: 5.00
+New Balance: 16296.16
+
+
+---------------------------------------------------
+=>Test Runs in Driver 2 (SpecialSavings):
+
+---Saver 1---
+Acct > 10k
+Annual Interest Rate: 10.00
+New Balance: 15125.00
+
+Acct Now < 10k (After Withdrawal)
+Annual Interest Rate: 4.00
+New Balance: 6145.42
+
+Acct Now < 10k (After Deposit)
+Annual Interest Rate: 4.00
+New Balance: 6667.57
+
+---Saver 2---
+Acct < 10k
+Annual Interest Rate: 4.00
+New Balance: 3010.00
+
+Acct Now > 10k (After Deposit)
+Annual Interest Rate: 10.00
+New Balance: 13118.42
+
+Acct Now < 10k (After Deposit)
+Annual Interest Rate: 4.00
+New Balance: 4132.15
+

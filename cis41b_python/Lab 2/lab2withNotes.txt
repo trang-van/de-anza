@@ -1,0 +1,175 @@
+'''
+Lab 2
+
+Trang Van
+
+User Interface
+'''
+
+from enrolldata import EnrollData
+
+import tkinter as tk
+import tkinter.messagebox as tkmb
+
+import matplotlib
+matplotlib.use('TkAgg')               	                         # tell matplotlib to work with Tkinter
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg  # Canvas widget
+import matplotlib.pyplot as plt	                                 # normal import of pyplot to plot
+
+FILENAME = "students1.csv"                                       #const variable for file name
+
+class mainWin (tk.Tk):
+    
+    def __init__(self):
+        # create constructor - bc creating own constructor  
+        
+        super().__init__()
+        
+        self.geometry("300x75")
+        self.title("CCC Enrollment")
+        description = "Enrollment data for California Community Colleges"
+        L1 = tk.Label(self, text=description, fg="blue")        
+        L1.grid(row=0, column = 0,columnspan = 2)    
+        self.columnconfigure(1, weight =1)
+
+        
+    #Button for Enrollment Trend By Year
+    
+        B1_main = tk.Button(self, text = "Enrollment Trend", command = self.getPlotWin)
+        B1_main.grid(row = 1, column = 0)
+        
+    #Button for Enrollment Trend By Age
+        B2_main = tk.Button(self, text = "Enrollment By Age", command = self.getDialogBox)
+        B2_main.grid(row = 1, column = 1)
+
+    def getDialogBox(self):
+        return self.wait_window(dialogBox())
+    
+    def getPlotWin(self):
+        pw = plotWin()
+        pw.enrollTrendPlt()
+    
+    def getFileErr(self):
+        ferr = fileExceptWin()
+        self.destroy()
+    
+        # ALL WIDGETS - Cleaner 
+        #instance variables in class with allow you to use it throughout class
+    
+        # WIDGET - L
+        # L = tk.Label(self, . . .)  => self is like "mainWin"
+        # p = plotWin(self)    
+        # ALL CALL BACK FUNCTIONS GO AFTER WIDGETS
+
+# Window 2 - Dialog
+
+class dialogBox(tk.Toplevel):  
+    def __init__(self):
+        super().__init__()
+        
+        self.grab_set()        
+        self.focus_set()         
+        self.transient()
+        
+        self.geometry("300x75")
+        self.title("Enrollment By Age")     
+        
+        self.year = 0
+        
+        # RADIO BUTTONS
+        controlVar = tk.IntVar()
+
+        rb1 = tk.Radiobutton(self, text = "2014", variable=controlVar, value= 1, command = lambda : self.setYear(controlVar.get()))
+        rb1.grid(row = 0, column = 1)
+        
+        rb2 = tk.Radiobutton(self, text="2015", variable=controlVar, value=2, command = lambda : self.setYear(controlVar.get()))
+        rb2.grid(row = 0, column = 2)
+        
+        rb3 = tk.Radiobutton(self, text = "2016", variable=controlVar, value=3, command = lambda : self.setYear(controlVar.get()))
+        rb3.grid(row = 0, column = 3)
+        
+        rb4 = tk.Radiobutton(self, text="2017", variable=controlVar, value=4, command = lambda : self.setYear(controlVar.get()))
+        rb4.grid(row = 0, column = 4)
+        
+        controlVar.set(1)                   #set rb1 as default
+        
+        #OK BUTTON
+        confirm_bttn = tk.Button(self, text = "OK", command = self.getPlotWin)
+        confirm_bttn.grid(row = 2, column = 2)
+        
+    def setYear(self, var):
+        if var == 1:
+            self.year = 2014
+        elif var == 2:
+            self.year = 2015  
+        elif var == 3:
+            self.year = 2016
+        elif var == 4:
+            self.year = 2017       
+        
+    def getPlotWin(self):
+        pw = plotWin()
+        pw.ageGroupPlt(self.year)
+           
+  
+#Plot Window
+
+class plotWin(tk.Toplevel):
+    def __init__(self):
+        super().__init__()
+        self.ed = EnrollData(FILENAME)
+        self.ed.readFile()
+        
+    def enrollTrendPlt(self):
+        fig = plt.figure(figsize=(10,10))
+        
+        self.ed.plotEnrollTrend()
+
+        canvas = FigureCanvasTkAgg(fig, master=self)      # create canvas with figure that matplotlib used
+        canvas.get_tk_widget().grid()                        # position canvas
+        canvas.draw()     
+    
+    def ageGroupPlt(self, year):
+        fig = plt.figure(figsize=(10,10))
+        
+        self.ed.plotByAgeGroups(year)
+     
+        canvas = FigureCanvasTkAgg(fig, master=self)      # create canvas with figure that matplotlib used
+        canvas.get_tk_widget().grid()                        # position canvas
+        canvas.draw()                                        # equivalent to plt.show()        
+ 
+#File Exception Handling - Window
+
+class fileExceptWin (tk.Toplevel):
+    def __init__(self):
+        super().__init__()
+        
+        self.grab_set()        
+        self.focus_set()         
+        self.transient()
+        
+        try:
+            file = open(FILENAME, "r")
+        except FileNotFoundError as err:
+            self.withdraw()
+            tkmb.showerror("Error", "Can't open: " + FILENAME + "\nCheck file and try again", parent = self)
+            self.destroy()
+            
+            
+        
+     
+        
+
+# MAIN FUNCTION 
+def main():
+    app = mainWin() #class construct
+    app.getFileErr()
+    #add function call IF on MAC
+    app.mainloop()
+    
+
+main()
+
+
+
+While the number of students in the "19 or less" or "20-24" has been consistent, there has been a descrease in students who are 30+ years old.

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1518901315 source:c:\users\trang\desktop\cis 22b code\ass5\ass5.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdlib>
+	<iomanip>
+
+1518904915 source:c:\users\trang\documents\cis 22b code\ass5\ass5.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdlib>
+	<iomanip>
+

@@ -1,0 +1,84 @@
+// Assignment #5
+// Trang Van
+// Code::Blocks on Windows 10
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+
+using namespace std;
+
+// Function Prototypes
+
+struct NBA_Team
+{
+    string name;
+    string conference;
+    string division;
+    unsigned short wins = 0;
+    unsigned short losses = 0;
+    float pct = 0;
+};
+
+
+
+int main()
+{
+    const string teamFile = "NBA_Teams.txt";
+    const string scoreFile = "NBA_Scores.txt";
+
+    NBA_Team teams[30];          //bc there are 30 teams, array of structs
+    ifstream finScore (scoreFile);
+
+    getTeamFile(teamFile);
+
+    //Check file or successful opening
+    if(finTeam.fail() && finScore.fail())
+    {
+        cout << "Error! Cannot open:" << teamFile << " and " << scoreFile << endl;
+        exit (1);
+    } else if (finTeam.fail())
+    {
+        cout << "Error! Cannot open: " << teamFile << endl;
+        exit (1);
+    } else if (finScore.fail())
+    {
+        cout << "Error! Cannot open: " << scoreFile << endl;
+        exit (1);
+    }
+
+
+    string conf, div, nam;                      //Temp to read into these
+    string dummyString;
+
+    int count =0;                                 // index into array
+
+    for (int c =0; c < 2; c++)                   //Process Only for 2 conferences
+    {
+        finTeam >> conf;                        // Reads the word "eastern"
+        finTeam >> dummyString;
+        for (int d = 0; d < 3; d++)              //Process 3 divisions
+        {
+            finTeam >> div;                     //After read into dummy, input file pointer is on \n, next right shift skips over blank line and reads "Atlantic"
+            getline(finTeam, dummyString);                // read rest of line into dummy (divison), \n is out o
+            for (int t =0; t < 5; t++)          //Process 5 teams
+            {
+                getline(finTeam, nam);
+             //   cout << conf << ' ' << div << ' ' << nam << endl;      //To test that it's reading in correctly
+
+                //PUT INTO ARRAY OF STRUCTS, INITALISE WINS LOSSES AND PCT TO 0
+                storeInfo.conference = conf;
+                storeInfo.division = div;
+                storeInfo.name = nam;
+
+                cout << storeInfo.conference << " " << storeInfo.division  << " " <<  storeInfo.name  << endl;
+            }
+        }
+
+    }
+
+    exit (1);          //Number of teams different depending where exit is
+
+    return 0;
+}

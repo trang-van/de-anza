@@ -1,0 +1,33 @@
+Assignment #5 
+
+sortkey Function:
+
+3 level sort (within each division)
+
+ORGINALY
+void sort (int* array, int arraySize)
+{
+
+	if (array[i] > array [j]) swap(array[i], array[j]);
+
+}
+
+WITH STRUCT
+
+void sort(NBA_Teams* array, int arraySize)
+{
+
+	sortKey(array[i],array [j]);
+	if (array[i] > array [j]) swap(array[i], array[j]);	//Have to swap the whole team, swap each of the 6 members
+
+}
+
+float sortKey (const NBA_Team x)
+{
+
+	int c = x.conference[0];			// first letter 'E', as ASCII code EASTERN
+	int d = x.division[0];				// first letter 'A', from ATLANTIC
+	float p = x.pct;				// 0.722
+	return c * 100 + d + p;				//6965.722 <--- ALL TEAMS FROM EASTERN AND ATLANTIC TEAM ARE THE SAME ASCII VALUE, only percents differ, so sort 
+
+}

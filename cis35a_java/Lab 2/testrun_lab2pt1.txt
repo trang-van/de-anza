@@ -1,0 +1,46 @@
+Trang Van
+CIS 35A-61Z
+Lab 2 Pt 1
+Date Due: 7/13/2018
+Date Submitted: 7/13/2018
+
+Lab 2 Part 1 - Test Runs
+Details: Prompts user to input name, address, age, phone number.
+	 Displays information once entered. Program tracks the 
+	 number of people created.
+
+----------------------------Test 1----------------------------
+Enter your name: Jane Doe
+Enter your address: 1234 Peppermint Dr.
+Enter your age: 34
+Enter your phone number: 669-105-0284
+
+===Person #1===
+Name: Jane Doe
+Address: 1234 Peppermint Dr.
+Age: 34
+Phone Number: 669-105-0284
+
+Enter your name: John Smith
+Enter your address: 2349 Rodeo Ave.
+Enter your age: 56
+Enter your phone number: (783)456-8294
+
+===Person #2===
+Name: John Smith
+Address: 2349 Rodeo Ave.
+Age: 56
+Phone Number: (783)456-8294
+
+Enter your name: Tracy Adams
+Enter your address: 9302 Baggins Ct.
+Enter your age: 25
+Enter your phone number: (408)264-2729
+
+===Person #3===
+Name: Tracy Adams
+Address: 9302 Baggins Ct.
+Age: 25
+Phone Number: (408)264-2729
+
+----------------------------------------------------------

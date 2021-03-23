@@ -1,0 +1,10 @@
+for
+if
+nullptr
+break
+int
+long
+sizeof
+return
+short
+else

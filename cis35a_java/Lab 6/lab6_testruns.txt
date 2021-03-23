@@ -1,0 +1,62 @@
+Trang Van
+CIS 35A- 61Z
+Lab 6
+Date Due: 08/07/18
+Date Submitted: 08/07/18
+
+TEST RUN:
+
+1234.ser has been written.
+
+2134.ser has been written.
+
+3124.ser has been written.
+
+4532.ser has been written.
+
+5678.ser has been written.
+
+6134.ser has been written.
+
+7874.ser has been written.
+
+8026.ser has been written.
+
+9893.ser has been written.
+
+1947.ser has been written.
+
+2877.ser has been written.
+
+3189.ser has been written.
+
+4602.ser has been written.
+
+5405.ser has been written.
+
+6999.ser has been written.
+
+
+Average Scores: 46.2  42.3  70.5  75.7  49.7  
+Highest Scores: 100   100   100   90    80    
+Lowest Scores:  0     7     0     32    10    
+
+1234.ser has been read.
+Student 1234's Scores:
+52 7 100 78 34 
+
+8026.ser has been read.
+Student 8026's Scores:
+70 10 66 78 56 
+
+1947.ser has been read.
+Student 1947's Scores:
+45 40 88 78 55 
+
+2134.ser has been read.
+Student 2134's Scores:
+90 36 90 77 30 
+
+6999.ser has been read.
+Student 6999's Scores:
+0 98 89 78 20 

@@ -1,0 +1,494 @@
+{
+   "coord": {
+      "lon": -122.46,
+      "lat": 37.71
+   },
+   "weather": [
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      },
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 62.67,
+      "pressure": 1028,
+      "humidity": 45,
+      "temp_min": 60.8,
+      "temp_max": 64.94
+   },
+   "visibility": 11265,
+   "wind": {
+      "speed": 4.7,
+      "deg": 280
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542146400,
+   "sys": {
+      "type": 1,
+      "id": 392,
+      "message": 0.163,
+      "country": "US",
+      "sunrise": 1542120534,
+      "sunset": 1542157155
+   },
+   "id": 420004432,
+   "name": "San Francisco",
+   "cod": 200
+}}{
+   "coord": {
+      "lon": -117.21,
+      "lat": 32.86
+   },
+   "weather": [
+      {
+         "id": 800,
+         "main": "Clear",
+         "description": "clear sky",
+         "icon": "01d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 74.12,
+      "pressure": 1024,
+      "humidity": 10,
+      "temp_min": 71.06,
+      "temp_max": 77
+   },
+   "visibility": 16093,
+   "wind": {
+      "speed": 12.75,
+      "deg": 170
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542147660,
+   "sys": {
+      "type": 1,
+      "id": 366,
+      "message": 0.0042,
+      "country": "US",
+      "sunrise": 1542118696,
+      "sunset": 1542156476
+   },
+   "id": 420004281,
+   "name": "San Diego",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -118.24,
+      "lat": 34.05
+   },
+   "weather": [
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 75.56,
+      "pressure": 1025,
+      "humidity": 7,
+      "temp_min": 71.6,
+      "temp_max": 80.96
+   },
+   "visibility": 16093,
+   "wind": {
+      "speed": 1.48,
+      "deg": 28.5008
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542146280,
+   "sys": {
+      "type": 1,
+      "id": 416,
+      "message": 0.0077,
+      "country": "US",
+      "sunrise": 1542119079,
+      "sunset": 1542156587
+   },
+   "id": 420003778,
+   "name": "Los Angeles",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -117.84,
+      "lat": 33.61
+   },
+   "weather": [
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 75.49,
+      "pressure": 1024,
+      "humidity": 6,
+      "temp_min": 69.62,
+      "temp_max": 80.96
+   },
+   "visibility": 16093,
+   "wind": {
+      "speed": 11.41,
+      "deg": 70
+   },
+   "clouds": {
+      "all": 75
+   },
+   "dt": 1542147660,
+   "sys": {
+      "type": 1,
+      "id": 485,
+      "message": 0.0069,
+      "country": "US",
+      "sunrise": 1542118932,
+      "sunset": 1542156542
+   },
+   "id": 420004505,
+   "name": "Irvine",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -122.04,
+      "lat": 37.01
+   },
+   "weather": [
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      },
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 64.78,
+      "pressure": 1028,
+      "humidity": 19,
+      "temp_min": 60.8,
+      "temp_max": 71.06
+   },
+   "visibility": 12874,
+   "wind": {
+      "speed": 1.14,
+      "deg": 256.001
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148800,
+   "sys": {
+      "type": 1,
+      "id": 399,
+      "message": 0.005,
+      "country": "US",
+      "sunrise": 1542120345,
+      "sunset": 1542157143
+   },
+   "id": 420006444,
+   "name": "Santa Cruz",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -121.89,
+      "lat": 37.34
+   },
+   "weather": [
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      },
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 62.33,
+      "pressure": 1028,
+      "humidity": 55,
+      "temp_min": 59,
+      "temp_max": 68
+   },
+   "visibility": 12874,
+   "wind": {
+      "speed": 1.14,
+      "deg": 256.001
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148800,
+   "sys": {
+      "type": 1,
+      "id": 392,
+      "message": 0.0392,
+      "country": "US",
+      "sunrise": 1542120351,
+      "sunset": 1542157065
+   },
+   "id": 420006441,
+   "name": "San Jos\u00e9",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -122.27,
+      "lat": 37.87
+   },
+   "weather": [
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      },
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 62.56,
+      "pressure": 1028,
+      "humidity": 63,
+      "temp_min": 60.8,
+      "temp_max": 64.94
+   },
+   "visibility": 12874,
+   "wind": {
+      "speed": 2.71,
+      "deg": 50.5008
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148800,
+   "sys": {
+      "type": 1,
+      "id": 392,
+      "message": 0.0053,
+      "country": "US",
+      "sunrise": 1542120509,
+      "sunset": 1542157089
+   },
+   "id": 420002222,
+   "name": "Berkeley",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -121.83,
+      "lat": 36.59
+   },
+   "weather": [
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 68.81,
+      "pressure": 1028,
+      "humidity": 19,
+      "temp_min": 66.02,
+      "temp_max": 71.06
+   },
+   "visibility": 12874,
+   "wind": {
+      "speed": 2.37,
+      "deg": 253.001
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148500,
+   "sys": {
+      "type": 1,
+      "id": 399,
+      "message": 0.0314,
+      "country": "US",
+      "sunrise": 1542120243,
+      "sunset": 1542157144
+   },
+   "id": 420004272,
+   "name": "Monterey",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -121.45,
+      "lat": 38.58
+   },
+   "weather": [
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      },
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 61.95,
+      "pressure": 1030,
+      "humidity": 21,
+      "temp_min": 60.8,
+      "temp_max": 64.04
+   },
+   "visibility": 3219,
+   "wind": {
+      "speed": 5.82,
+      "deg": 310
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148500,
+   "sys": {
+      "type": 1,
+      "id": 422,
+      "message": 0.0049,
+      "country": "US",
+      "sunrise": 1542120403,
+      "sunset": 1542156800
+   },
+   "id": 420004037,
+   "name": "Sacramento",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -122.46,
+      "lat": 37.71
+   },
+   "weather": [
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      },
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 62.67,
+      "pressure": 1028,
+      "humidity": 45,
+      "temp_min": 60.8,
+      "temp_max": 64.94
+   },
+   "visibility": 11265,
+   "wind": {
+      "speed": 4.7,
+      "deg": 280
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542146400,
+   "sys": {
+      "type": 1,
+      "id": 392,
+      "message": 0.163,
+      "country": "US",
+      "sunrise": 1542120534,
+      "sunset": 1542157155
+   },
+   "id": 420004432,
+   "name": "San Francisco",
+   "cod": 200
+}{
+   "coord": {
+      "lon": -122.07,
+      "lat": 37.65
+   },
+   "weather": [
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      },
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 62.33,
+      "pressure": 1028,
+      "humidity": 43,
+      "temp_min": 59,
+      "temp_max": 64.94
+   },
+   "visibility": 12874,
+   "wind": {
+      "speed": 2.71,
+      "deg": 28.0008
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148800,
+   "sys": {
+      "type": 1,
+      "id": 392,
+      "message": 0.0046,
+      "country": "US",
+      "sunrise": 1542120433,
+      "sunset": 1542157069
+   },
+   "id": 420002058,
+   "name": "Hayward",
+   "cod": 200
+}

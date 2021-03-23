@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1517943180 source:c:\users\trang\desktop\cis 22b code\ass4\ass4.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<cstring>
+
+1517943241 source:c:\users\trang\desktop\cis 22b code\ass4\oldass3.cpp
+	<cstring>
+	<cctype>
+	<cmath>
+	<fstream>
+	<iostream>
+	<string>
+

@@ -1,0 +1,32 @@
+struct NBA_Team 
+{
+    string name;
+    string conference;
+    string division;
+    unsigned short wins;
+    unsigned short losses;
+    float pct;
+};
+
+Eastern Conference
+
+Atlantic Division
+Boston Celtics
+Brooklyn Nets
+New York Knicks
+Philadelphia 76ers
+Toronto Raptors
+
+Store data of one team in variable:
+
+NBA_Team object;
+
+//Assigning member to struct object
+object.name = "Boston Celtics";
+object.conference = "Eastern";		//Don't need to store "conference" or "division"
+object.division = "Atlantic";
+object.wins = object.losses = 0;	//Count wins and losses
+object.pct = 0;				//Percent won out of all games
+
+//Write loop to read into all 30 teams
+

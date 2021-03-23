@@ -1,0 +1,48 @@
+{
+   "coord": {
+      "lon": -122.07,
+      "lat": 37.65
+   },
+   "weather": [
+      {
+         "id": 721,
+         "main": "Haze",
+         "description": "haze",
+         "icon": "50d"
+      },
+      {
+         "id": 711,
+         "main": "Smoke",
+         "description": "smoke",
+         "icon": "50d"
+      }
+   ],
+   "base": "stations",
+   "main": {
+      "temp": 62.33,
+      "pressure": 1028,
+      "humidity": 43,
+      "temp_min": 59,
+      "temp_max": 64.94
+   },
+   "visibility": 12874,
+   "wind": {
+      "speed": 2.71,
+      "deg": 28.0008
+   },
+   "clouds": {
+      "all": 1
+   },
+   "dt": 1542148800,
+   "sys": {
+      "type": 1,
+      "id": 392,
+      "message": 0.0046,
+      "country": "US",
+      "sunrise": 1542120433,
+      "sunset": 1542157069
+   },
+   "id": 420002058,
+   "name": "Hayward",
+   "cod": 200
+}
