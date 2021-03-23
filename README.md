@@ -11,5 +11,5 @@ De Anza CIS Coursework
 
 `cis41b_python`: Advanced Python Concepts (socket programming, GUI, multithreading) using libraries like `numpy`, `tkinter`, `socket`, `multiprocessing` 
 
-`online-store-front`: C++ Implementation using various data structures to emulate a store front
+`online-store-front`: C++ Implementation using various data structures to emulate a store front.
 		      Tracked employee and customer information, as well as orders and whether they've been fulfilled or not
